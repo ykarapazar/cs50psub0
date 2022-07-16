@@ -33,21 +33,44 @@
       </div>
 
       <div class="container-fluid">
-        <div class="row">
-          <div class="col text-center">
+          <div class="d-flex flex-row">
             <h4>Advanced Search</h4>
-            <form action="https://www.google.com/search">
-                <input type="text" name="as_q">
-                <input type="text" name="as_epq">
-                <input type="text" name="as_oq">
-                <input type="text" name="as_eq">
-            </form>
-            <div class="col text-center 9">
-                <label class="label">all these words:</label>
-                <label class="label">this exact word or phrase:</label>
-                <label class="label">any of these words:</label>
-                <label class="label">none of these words</label>
+          </div>
+            <div class="row"
+                <form action="https://www.google.com/search">
+                  <div class="col">
+                    <input type="text" name="as_q">
+                  </div>
+                  <div class="col">
+                    <input type="text" name="as_epq">
+                  </div>
+                  <div class="col">
+                    <input type="text" name="as_oq">
+                  </div>
+                  <div class="col">
+                    <input type="text" name="as_eq">
+                  </div>
+                  <input type="submit" value="Search">
+                </form>
+              </div>
+                <div class="d-flex flex-row justify-content-around">
+                  <div class="d-flex flex-row item-alignment-center justify-content-center">
+                    all these words:
+                  </div>
+                  <div class="d-flex flex-column justify-content-">
+                    this exact word or phrase:
+                  </div>
+                  <div class="d-flex flex-column justify-content-end">
+                    any of these words:
+                  </div>
+                  <div class="d-flex flex-column justify-content-start">
+                    none of these words:
+                  </div>
+              </div>
             </div>
+              
+                </div>
+              </div>
           </div>
         </div>
       </div>
