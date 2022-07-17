@@ -36,37 +36,27 @@
           <div class="d-flex flex-row">
             <h4>Advanced Search</h4>
           </div>
-            <div class="row"
+            <div class="row">
                 <form action="https://www.google.com/search">
                   <div class="col">
-                    <input type="text" name="as_q">
+                    <label for="allthesewords">all these words</label>
+                    <input type="text" name="as_q" id="allthesewords">
                   </div>
                   <div class="col">
-                    <input type="text" name="as_epq">
+                    <label for="exactword">this exact word or phrase</label>
+                    <input type="text" name="as_epq" id="exactword">
                   </div>
                   <div class="col">
-                    <input type="text" name="as_oq">
+                    <label for="anyofthesewords">any of these words</label>
+                    <input type="text" name="as_oq" id="anyofthesewords">
                   </div>
                   <div class="col">
-                    <input type="text" name="as_eq">
+                    <label for="noneofthesewords">none of these words</label>
+                    <input type="text" name="as_eq" id="noneofthesewords">
                   </div>
                   <input type="submit" value="Search">
                 </form>
-              </div>
-                <div class="d-flex flex-row justify-content-around">
-                  <div class="d-flex flex-row item-alignment-center justify-content-center">
-                    all these words:
-                  </div>
-                  <div class="d-flex flex-column justify-content-">
-                    this exact word or phrase:
-                  </div>
-                  <div class="d-flex flex-column justify-content-end">
-                    any of these words:
-                  </div>
-                  <div class="d-flex flex-column justify-content-start">
-                    none of these words:
-                  </div>
-              </div>
+                
             </div>
               
                 </div>
