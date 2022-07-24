@@ -1,0 +1,217 @@
+body{
+    font-family: Arial, sans-serif;
+    color: black;
+    background: white;
+}
+
+.container {
+
+    max-width: %100;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr
+}
+
+.containeradvanced {
+
+    max-width: %100;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr
+}
+
+.item {
+
+    background: white;
+    
+
+}
+
+.mainitem {
+
+    background: white;
+    height: 65vh;
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    padding-top: 25%;
+    
+    
+    
+
+}
+.searchbar {
+
+    background: white;
+    display: grid;
+    width: 35vw;
+
+}
+
+.buttoncontainer {
+
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-self: center;
+    align-self: center;
+    padding: 5vh;
+    
+
+}
+
+.buttoncontainerimage {
+
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-self: center;
+    align-self: center;
+    padding: 5vh;
+
+}
+
+.searchbuttons {
+
+    place-self: center;
+    background-color: #f8f9fa;
+    justify-self: center;
+    align-self: center;
+    
+    border-radius: 10px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.searchbaritself {
+
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.googlelogo {
+
+    place-self: center;
+    margin-bottom: 5%;
+
+}
+
+.upperrightlinkscontainer {
+
+    display: grid;
+    grid-template-columns: 5fr, 1fr;
+    margin-top: 5%;
+}
+
+.upperrightadvsearch {
+
+    color: black;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    text-size-adjust: 60%;
+    margin-top: %15;
+}
+
+.upperrightadvsearch:hover {
+
+    text-decoration: underline;
+    color: black;
+}
+
+.headerlinkbox {
+
+    display:grid;
+}
+
+.upperleftlogoadvanced {
+
+    padding-top: 5vh;
+    padding-left: 5vw;
+    align-self: start;
+    justify-self: start;
+    padding-bottom: 3vh;
+    
+}
+
+.googlelogoufak {
+
+    place-self: center;
+    margin: auto;
+}
+
+.labellaradvanced{
+
+    display: grid;
+    grid-template-rows: (repeat(4, 1fr));
+    padding-left: 5vw;
+}
+
+.labellaradvanced2{
+
+    display: grid;
+    grid-template-rows: (repeat(4, 1fr));
+    align-self: center;
+ 
+}
+
+.advsearchbars{
+
+    display: grid;
+    grid-template-rows: (repeat(4, 1fr));
+    width: 35vh;
+
+}
+
+.searchbaradv{
+
+    padding-bottom: 10%;
+    width: 35vw;
+}
+#allthesewords{
+
+    width: 35vw;
+}
+
+#exactword{
+
+    width: 35vw;
+}
+
+#noneofthesewords{
+
+    width: 35vw;
+}
+
+#anyofthesewords{
+
+    width: 35vw;
+}
+.upperrightlinkscontaineradv {
+
+    color: black;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    text-size-adjust: 60%;
+    margin-top: 8% ;
+    margin-left: 25%;
+    padding-bottom: 10%;
+    
+}
+
+.advsearchbaslik {
+
+    height: auto;
+    padding-bottom: 5vh;
+    width: 300px;
+    place-self: center;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.advsearchlabelufak {
+
+
+}
+
